@@ -10,6 +10,7 @@ elif (f=="n"):
         arr.append (uniform(0,100))
 else:
     print ("Ошибка")
+    exit()
 pointermax=arr.index (max(arr))
 print ("Входной массив")
 print (arr)
